@@ -55,6 +55,12 @@ export const routes = [
       const { id } = req.params;
       const { title, description } = req.body;
 
+      if (!title && !description) {
+        return res
+          .writeHead(400)
+          .end("The title or description fields are required");
+      }
+
       const taskIndex = database.findById("tasks", id);
 
       if (taskIndex === -1) {
