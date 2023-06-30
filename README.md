@@ -21,7 +21,7 @@ execute o arquivo que contém todo código para carregar o arquivo .csv que est�
 $ node ./src/utils/parse-csv.js
 ```
 ## extra
-Caso queira testar os endpoints da aplicação, deixei na raiz do projeto a Request Collection que criei utilizando o Insomnia, basta baixar e importar na sua máquina
+Caso queira testar os endpoints da aplicação, deixei na raiz do projeto a [Request Collecttion](https://github.com/brayan-jordan/nodejs-import-data-from-csv/blob/master/Insomnia_2023-06-30.json) que criei utilizando o [Insomnia](https://insomnia.rest/download), basta baixar e importar na sua máquina
 
 Esse é o código responsável por ler o arquivo e fazer as requisições:
 ```javascript
